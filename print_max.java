@@ -12,7 +12,7 @@ public class print_max {
     public static int maxInArray(int []arr){
         int n = arr.length;
         int maxi = Integer.MIN_VALUE;
-        return maxFind(arr,n,0,maxi);
+        return maxFind(arr,n,0,maxi); 
     }
     public static void main(String[] args) {
         int []arr = {13,3,2,0,-45,8,90};
